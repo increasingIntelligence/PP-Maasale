@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, lightgreen, rgb(220, 255, 220));
+    height: 100vh;
+    color: rgb(7, 3, 3);
+}
+
+
+
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+}
+
+header nav a:hover {
+    background-color: #006400;
+}
+
+main {
+    padding: 20px;
+}
+
+section h2 {
+    margin-top: 40px;
+}
+
+section p {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section form {
+    margin-bottom: 40px;
+}
+
+section label,
+footer p {
+    color: #333;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3E8E41;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+}
